@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* General */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Profile */
+#author-profile{
+    text-align: center;
+}
+
+#author-profile h1{
+    text-align: center;
+}
+
+#author-profile img{
+    width: 283px; 
+    height: 378px;
+    border-width: 10px;
+    border-style: outset;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+/* Profile Urls */
+#author-profile p{
+    margin: 5px;
+}
+
+#authors-urls{
+    width: 35%;
+    margin: 0 auto;
+}
+#author-urls, ul{
+    margin: 5px
+}
+
+/* Link and Logo Urls */
+#link-and-logo{
+    display: flex;
+    align-items: center;
+}
+
+#link-and-logo a{
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#link-and-logo:hover{
+    opacity: 0.7;
+}
+
+#link-and-logo img{
+    height: 32px;
+    width: 32px;
+    vertical-align: middle
+}
+
+/* Sections */
+#section{
+    padding-bottom: 15px;
+    border-style: dotted;
+    border-radius: 5px;
+    position: static;
+}
+
+#section p{
+    padding-top: 5px;
+}
+
+#section-header{
+    text-decoration: underline;
+}
+
+/* Sub-sections */
+#sub-section{
+    margin-top: 10px;
+    border-style: dashed;
+}
+
+#sub-section h2{
+    text-decoration: underline;
+}
+
+/* Sub-section items */
+#sub-section-item{
+    padding-top: 5px;
+    border-style: double;
+}
+
+#sub-section-item h3{
+    font-style: italic;
+}
+
+#sub-section-item p{
+    padding-top: 5px;
+}
+
+/* Index */
+.index-container{
+    text-align: start;
+}
+
+/* Left Side */
+.main-left{
+    background: transparent;
+    height: 1000px;
+    width: 35%;
+    float: left;
+    position: relative;
+    border-style: solid;
+}
+
+.left-sticky{
+    padding-top: 40px;
+    /* align-items: center; */
+    top: 0;
+    position: sticky;
+    -webkit-position: sticky;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+/* Right Side */
+.main-right{
+    width: 65%;
+    float: right;
+    margin-top: 100px;
+    border-style: solid;
+}
+
+.main-right h1 {
+    font-size: 30px;
+}
+
+.main-right h2 {
+    font-size: 25px;
+}
+
+.main-right h3 {
+    font-size: 20px;
+}
