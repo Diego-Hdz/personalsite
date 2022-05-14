@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* General */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Background */
+/* https://cssgradient.io/ */
+body {
+    min-height: 100vh;
+    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 26%, rgba(9, 9, 121, 1) 58%, rgba(0, 212, 255, 1) 100%);
+    background-color: rgb(2, 0, 36);
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.message h1 {
+    font-size: 5em;
+    color: white;
+}
+
+.section p {
+    font-size: large;
+    color: white;
+    line-height: 1.5;
+}
