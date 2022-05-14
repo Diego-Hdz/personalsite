@@ -24,13 +24,36 @@ body {
     flex-grow: 1;
 }
 
-.message h1 {
+/* Header */
+.header h1 {
     font-size: 5em;
     color: white;
 }
 
-.section p {
+/* Subheader */
+.subheader {
+    margin-bottom: 20px;
+}
+
+.subheader h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.subheader h2 a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Item */
+.item p {
     font-size: large;
     color: white;
     line-height: 1.5;
+    font-style: italic;
+}
+
+.item a {
+    color: white;
+    text-decoration: underline;
 }
